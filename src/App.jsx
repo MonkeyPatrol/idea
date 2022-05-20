@@ -137,6 +137,29 @@ const App = () => {
         <p>
           <b>Total: $2.080.000</b>
         </p>
+        <footer>
+          <p className="center">
+            <b>
+              &copy; MonkeyPatrol {new Date().getFullYear()}.{" "}
+              <a href="mailto:hola@monkeypatrol.co">Envianos un email</a>.{" "}
+              <a
+                href="https://github.com/monkeypatrol/idea"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Open Source
+              </a>
+              .{" "}
+              <a
+                href="https://analytics.scidroid.co/share/lHrk0FKU/MonkeyPatrol"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Analíticas
+              </a>
+            </b>
+          </p>
+        </footer>
       </main>
     </>
   );
