@@ -1,0 +1,22 @@
+{
+  "name": "monkeypatrol-lp",
+  "version": "1.0.0",
+  "description": "Una landing page para exponer nuestra idea",
+  "repository": "https://github.com/monkeypatrol/idea",
+  "author": "Juan Almanza<hi@scidroid.co>",
+  "license": "unlicense",
+  "private": false,
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build"
+  },
+  "dependencies": {
+    "medium-zoom": "^1.0.6",
+    "react": "^17.0.0",
+    "react-dom": "^17.0.0"
+  },
+  "devDependencies": {
+    "vite": "^1.0.0-rc.13",
+    "vite-plugin-react": "^4.0.0"
+  }
+}
