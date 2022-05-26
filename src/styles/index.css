@@ -105,3 +105,14 @@ small {
 .center {
   text-align: center;
 }
+
+@media print {
+  header,
+  header > *,
+  footer,
+  footer > *,
+  .notice,
+  .notice > * {
+    display: none !important;
+  }
+}
